@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classificador de nível de herói</title>
+
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="icon" type="image/pkm-icon" href="Radiante.webp">
+</head>
+<body>
+    <section class="main">
+        <div class="rank-img">
+            <div class="img-box">
+                <img id="img-rank" src="./Imagens/Unranked.webp" alt="rank">
+            </div>
+        </div>
+
+        <div class="rank-box">
+            <div class="box">
+                <div class="box-content">
+                    <label for="vitorias">Vitórias:</label>
+                    <input type="number" name="vitorias" id="vitorias" placeholder="número de vitórias" min="0"><br>
+                    <label for="derrotas">Derrotas:</label>
+                    <input type="number" name="derrotas" id="derrotas" placeholder="número de derrotas"
+                    min="0">
+                    <p>Total: <strong class="total">0</strong> vitórias</p>
+                    <p>Rank: <strong class="rank">Undefined</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer">©2024. Designed by YAN</div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
